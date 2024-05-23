@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-text {
+    color: #000;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #77aaff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.about, .services, .testimonials, .contact {
+    background: #f4f4f4;
+    padding: 40px 0;
+}
+
+.about h2, .services h2, .testimonials h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services .service, .testimonials .testimonial {
+    margin-bottom: 20px;
+}
+
+.services .service img, .testimonials .testimonial img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact form button {
+    background: #77aaff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-nav, .social-media {
+    margin-bottom: 10px;
+}
